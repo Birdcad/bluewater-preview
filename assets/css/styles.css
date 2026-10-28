@@ -214,6 +214,10 @@ ul.ticks li::before { content: ""; position: absolute; left: 2px; top: .45em; wi
 .aside-card { background: #fff; border: 1px solid var(--line); border-radius: var(--radius); padding: 26px; box-shadow: var(--shadow-sm); margin-top: 22px; }
 .aside-card h3 { font-size: 1rem; margin-bottom: 10px; }
 .aside-card p { font-size: .93rem; color: var(--muted); margin-bottom: 14px; }
+.patent-refs { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.patent-refs a { font-family: var(--font-display); font-weight: 600; font-size: .9rem; color: var(--navy); }
+.patent-refs a:hover { color: var(--aqua); }
+.patent-refs span { display: block; font-size: .84rem; color: var(--muted); line-height: 1.45; }
 .sticky { position: sticky; top: calc(var(--header-h) + 24px); }
 .pager { display: flex; justify-content: space-between; gap: 16px; border-top: 1px solid var(--line); margin-top: 56px; padding-top: 28px; }
 .pager a { font-family: var(--font-display); font-weight: 600; }
